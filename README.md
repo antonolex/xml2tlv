@@ -21,3 +21,14 @@ Type - 1 byte 0x00 - hex 0x01 - string
 Length - 1 byte - size of the value field in bytes
 
 Value - variable-sized series of bytes which contains data for this part of the message
+
+
+Necessary files to run converter:
+
+xml2tlv.exe
+
+zlib1.dll
+
+libxml2.dll
+
+iconv.dll
